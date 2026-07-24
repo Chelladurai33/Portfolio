@@ -52,9 +52,6 @@ export default function App() {
             <Sparkles size={18} className="gradient-text" />
             <span>CHELLADURAI M</span>
           </div>
-          <p style={{ color: 'var(--text-muted)', fontSize: '0.85rem' }}>
-            Interactive 3D Portfolio • Built strictly with verified resume credentials.
-          </p>
           <p style={{ color: 'var(--text-dim)', fontSize: '0.75rem', fontFamily: 'var(--font-mono)' }}>
             © {new Date().getFullYear()} CHELLADURAI M. All Rights Reserved.
           </p>
