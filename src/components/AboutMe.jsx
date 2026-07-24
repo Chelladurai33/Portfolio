@@ -5,9 +5,9 @@ import chelladuraiPhoto from '../assets/chelladurai-photo.jpg'
 
 export default function AboutMe() {
   const stats = [
-    { label: 'CGPA (till Sem 6)', value: '7.82', icon: <GraduationCap size={18} className="gradient-text" /> },
+    { label: 'CGPA (till Sem 6)', value: '7.85', icon: <GraduationCap size={18} className="gradient-text" /> },
     { label: 'Internships', value: '2', icon: <Briefcase size={18} className="gradient-text" /> },
-    { label: 'Key Projects', value: '2', icon: <Code size={18} className="gradient-text" /> },
+    { label: 'Key Projects', value: '3', icon: <Code size={18} className="gradient-text" /> },
     { label: 'NPTEL Certifications', value: '2', icon: <Award size={18} className="gradient-text" /> }
   ]
 
@@ -74,7 +74,7 @@ export default function AboutMe() {
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
                 <CheckCircle2 size={18} style={{ color: 'var(--accent-cyan)', marginTop: '0.2rem', flexShrink: 0 }} />
                 <span style={{ color: 'var(--text-main)', fontSize: '0.95rem' }}>
-                  <strong>Academic Excellence:</strong> Pursuing B.E – CSE at V.S.B. Engineering College with a 7.82 CGPA (till Sem 6).
+                  <strong>Academic Excellence:</strong> Pursuing B.E – CSE at V.S.B. Engineering College with a 7.85 CGPA (till Sem 6).
                 </span>
               </div>
 

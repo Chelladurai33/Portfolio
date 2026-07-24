@@ -8,7 +8,7 @@ export default function Education() {
       degree: 'B.E – CSE',
       institution: 'V.S.B. Engineering College',
       period: '2023–2027',
-      result: '7.82 CGPA (till Sem 6)',
+      result: '7.85 CGPA (till Sem 6)',
       tag: 'Undergraduate'
     },
     {
