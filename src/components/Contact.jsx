@@ -103,13 +103,6 @@ export default function Contact() {
                   Your message has been submitted to <strong>chelladuraimoffl@gmail.com</strong>.
                 </p>
 
-                <div style={{ marginTop: '1.2rem', padding: '1rem', background: 'rgba(255, 183, 3, 0.1)', borderRadius: '10px', border: '1px solid rgba(255, 183, 3, 0.3)', textAlign: 'left', fontSize: '0.85rem', color: '#ffb703' }}>
-                  <div style={{ fontWeight: '700', marginBottom: '0.3rem', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
-                    <AlertCircle size={16} />
-                    <span>Action Required for First-Time Setup:</span>
-                  </div>
-                  Check your <strong>chelladuraimoffl@gmail.com</strong> inbox (or Spam/Junk folder) for an email from <strong>FormSubmit</strong> titled <em>"Action Required: Activate FormSubmit"</em>. Click <strong>"Activate Form"</strong> inside that email to start receiving all message submissions!
-                </div>
 
                 {lastSubmittedData && (
                   <a
